@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F293D942067EA2300B372EA /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F293D932067EA2300B372EA /* Wage.swift */; };
 		0F4CF8DC204EAD2C000818F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4CF8DB204EAD2C000818F2 /* AppDelegate.swift */; };
 		0F4CF8DE204EAD2C000818F2 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4CF8DD204EAD2C000818F2 /* MainVC.swift */; };
 		0F4CF8E1204EAD2C000818F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4CF8DF204EAD2C000818F2 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F293D932067EA2300B372EA /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		0F4CF8D8204EAD2C000818F2 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4CF8DB204EAD2C000818F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F4CF8DD204EAD2C000818F2 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F293D922067E9F600B372EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F293D932067EA2300B372EA /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0F4CF8CF204EAD2C000818F2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		0F4CF8DA204EAD2C000818F2 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				0F293D922067E9F600B372EA /* Model */,
 				0F4CF909204EB25D000818F2 /* Controller */,
 				0F4CF8DB204EAD2C000818F2 /* AppDelegate.swift */,
 				0F4CF8DF204EAD2C000818F2 /* Main.storyboard */,
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F4CF90C204EB5DF000818F2 /* CurrencyTxtField.swift in Sources */,
+				0F293D942067EA2300B372EA /* Wage.swift in Sources */,
 				0F4CF8DE204EAD2C000818F2 /* MainVC.swift in Sources */,
 				0F4CF8DC204EAD2C000818F2 /* AppDelegate.swift in Sources */,
 			);
