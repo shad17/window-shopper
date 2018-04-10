@@ -29,6 +29,7 @@ class CurrencyTxtField: UITextField {
             let place = NSAttributedString(string: p, attributes: [.foregroundColor:#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)])
             attributedPlaceholder = place
             textColor = #colorLiteral(red: 0.9979914227, green: 1, blue: 0.987238965, alpha: 1)
+            
         }
     }
 }
