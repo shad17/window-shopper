@@ -47,8 +47,8 @@ class MainVC: UIViewController {
     @IBAction func clearCalculatorPressed(_ sender: Any) {
         resultLbl.isHidden = true
         hoursLbl.isHidden = true
-        wageTxt.text = " "
-        priceTxt.text = " "
+        wageTxt.text = ""
+        priceTxt.text = ""
     }
     
     override func didReceiveMemoryWarning() {
